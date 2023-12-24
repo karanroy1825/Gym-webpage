@@ -1,0 +1,118 @@
+
+    /* CSS reset */
+    body {
+        font-family: 'Baloo Bhaijaan 2', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        /* color: rgb(255, 255, 255); */
+        background: url("kl.jpg");
+        display: block;
+
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid white; */
+        position: absolute;
+        left: 34px;
+        top: 8px;
+    }
+
+    .left img {
+        width: 76px;
+        filter: invert(0%);
+    }
+
+    .left div {
+        font-size: 19px;
+        text-align: center;
+        color: white;
+        bottom: 0%;
+    }
+
+    .mid {
+        display: block;
+        width: 49%;
+        margin: 49px auto;
+        /* border: 2px solid green; */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 53px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+
+    }
+
+    .navBar {
+        display: inline-block;
+    }
+
+    .navBar li {
+        display: inline-block;
+        font-size: 26px;
+    }
+
+    .navBar li a {
+        font-family: 'Baloo Bhaijaan 2', sans-serif;
+        color: white;
+        text-decoration: none;
+        padding: 24px;
+    }
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+
+    }
+    
+   
+
+    .btn {
+        font-family: 'Baloo Bhaijaan 2', sans-serif;
+        margin: 0px 9px;
+        background-color: rgb(59, 54, 54);
+        color: white;
+        padding: 4px 14px;
+        border: px solid gray;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(128, 128, 128);
+    }
+
+    .container {
+        /* border: 2px solid green; */
+        margin: 96px 80px;
+        width: 33%;
+        padding: 75px;
+        border-radius: 28px;
+    }
+    .form-group input{
+        font-family: 'Baloo Bhaijaan 2', sans-serif;
+        text-align: center;
+        display: block;
+        width: 408px;
+        padding: 8px;
+        border:2px solid black;
+        margin: 13px auto;
+        border-radius: 8px;
+    }
+    .heading{
+        text-align: center;
+        font-family: 'Baloo Bhaijaan 2', sans-serif;
+color: white;
+    }
+    .container button{
+        text-align: center;
+        display: block;
+        margin: auto;
+        width: 23%;
+    }
